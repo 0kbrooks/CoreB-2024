@@ -16,6 +16,7 @@ public class ShootBalls extends Command {
         this.intake = intake;
         addRequirements(intake);
     }
+    
 
     @Override
     public void initialize() {

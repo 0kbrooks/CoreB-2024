@@ -21,7 +21,7 @@ public class SearchForTag extends Command {
 
     @Override
     public void execute() {
-        driveTrain.setMotors(TURN_SPEED, -TURN_SPEED);
+        driveTrain.tankDrive(TURN_SPEED, -TURN_SPEED);
     }
 
     @Override

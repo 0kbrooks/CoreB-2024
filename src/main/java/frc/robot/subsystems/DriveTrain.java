@@ -54,5 +54,8 @@ public class DriveTrain extends SubsystemBase {
     public void stop() {
         System.out.print("Executing Stop func in Drive Train!");
     }
-
+    
+    public void tankDrive(double left, double right) {
+        drive.tankDrive(left, right);
+    }
 }
